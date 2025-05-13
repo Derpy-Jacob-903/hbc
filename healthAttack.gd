@@ -14,7 +14,7 @@ extends SigilEffect
 
 #Used for sigils that passively define the power of the card they're attached to, such as Ant, Spilled Blood, etc...
 func define_power():
-	print("we are defining power this one!!")
+	print("we are defining power with this one!!")
 	var damageout = 0
 	if card and card.health > 0:
 		damageout = card.health
